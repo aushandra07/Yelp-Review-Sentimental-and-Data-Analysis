@@ -19,4 +19,6 @@ I created a Python UDF inside Snowflake using TextBlob to calculate sentiment po
 I used SQL to analyze various trends and patterns in the data, including customer sentiment, business performance, and regional differences over time.<br>
 
 Learning:<br>
-This was part of my self-learning journey to deepen my understanding of data engineering, data warehousing, and analytics using real-world tools and datasets. It helped me see how Python scripting, cloud storage with AWS S3, cloud data warehousing with Snowflake, SQL-based transformations and querying, as well as Python UDFs for data enrichment, all fit together in a modern, end-to-end data pipeline—from raw semi-structured files to actionable business insights.
+This was part of my self-learning journey to deepen my understanding of data engineering, data warehousing, and analytics using real-world tools and datasets. It helped me see how Python scripting, cloud storage with AWS S3, cloud data warehousing with Snowflake, SQL-based transformations and querying, as well as Python UDFs for data enrichment, all fit together in a modern, end-to-end data pipeline—from raw semi-structured files to actionable business insights.<br>
+
+Link to downlaod the dataset: https://business.yelp.com/data/resources/open-dataset/
