@@ -1,3 +1,16 @@
+Data ingestion: creating a VARIANT table and loading JSON data from S3 into Snowflake using COPY INTO with AWS credentials :
+
+create or replace table yelp_reviews (review_text variant)
+
+COPY INTO yelp_reviews
+FROM "s3://namastesql/yelp/"
+CREDENTIALS = {
+AWS_KEY_ID = '<your AWS_KEY_ID>'
+AWS_SECRET_KEY = '<your AWS_SECRET_KEY>'
+}
+FILE_FORMAT=(TYPE =JSON) ;
+
+
 SQL query to flatten nested JSON review data by extracting key fields and applying sentiment analysis for structured storage in Snowflake.
 
 Query 1
